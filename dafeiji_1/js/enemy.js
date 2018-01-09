@@ -1,7 +1,8 @@
 
-class Enemy{
+class Enemy extends Base{
 	constructor(type){
-		this.ele=null;
+		super();
+		//this.ele = null;
 		this.hp=1;
 		this.speed=5;
 		this.dieImgs=[];
