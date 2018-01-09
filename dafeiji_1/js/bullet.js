@@ -1,8 +1,9 @@
 
 
-class Bullet{
+class Bullet extends Base{
 	constructor(){
-		this.ele=null;
+		super();
+		//this.ele = null;
 	}
 
 	init(){
